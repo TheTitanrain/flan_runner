@@ -1,4 +1,4 @@
-cd /home/titanrain/
+cd /home/%username%/
 sudo rm -rf flan
 sudo git clone https://github.com/cloudflare/flan
 cd flan/
