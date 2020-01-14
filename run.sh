@@ -3,7 +3,7 @@ sudo rm -rf flan
 sudo git clone https://github.com/cloudflare/flan
 cd flan/
 sudo chmod 777 shared/ips.txt
-sudo echo 212.19.20.180 > shared/ips.txt
+sudo echo 123.123.123.123 > shared/ips.txt
 sudo make build
 current_time=$(date "+%Y.%m.%d-%H.%M")
 sudo make start
